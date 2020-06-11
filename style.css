@@ -90,7 +90,7 @@ i{
 }
 .container{
 	display: grid;
-	grid-template-columns: 25% 75% ;
+	grid-template-columns: 30% 70% ;
 	/*grid-template-columns: repeat(auto-fit, minmax(100px, 5fr));*/
 	 
 }
