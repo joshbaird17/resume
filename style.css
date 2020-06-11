@@ -1,0 +1,128 @@
+body {
+  	background-color: black;
+} 
+
+.Josh{
+	letter-spacing: .25em;
+	word-spacing: .5em;
+	text-transform: uppercase;
+ 	color: #500000;
+ 	text-indent: 1000px;
+ 	font-family: Lucida Console;
+}
+
+.Baird{
+	letter-spacing: .25em;
+	word-spacing: .5em;
+	text-transform: uppercase;
+ 	color: #708090;
+ 	text-indent: 1000px;
+ 	font-family: Arial Black;
+ 	font-weight: bold;
+
+}
+
+p {
+	
+	font-family: Comic Sans MS
+	
+}
+
+.date{
+	text-align: left;
+}
+h2 {
+	/*text-align: center;*/
+	color: white;
+	text-decoration: underline;
+	font-family: Marker Felt;
+	letter-spacing: .07em;
+}
+
+h3 {
+	color: white;
+	text-decoration: underline;
+	font-family: Marker Felt;
+	letter-spacing: .07em;
+}
+
+ul {
+	color: white;
+}
+
+a:active{
+	color: #500000;
+}
+
+a:hover{
+  	background-color: #646464;
+}
+
+a:visited{
+	color: #500000;
+}
+
+img{
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	width: 250px;
+	height: 330px; 
+	text-align: left;
+	border-radius: 50%;
+}
+
+i{
+	display: inline-block;
+  	position: relative;
+  	padding-right: 25px;
+}
+
+.nonwhite{
+	color: #500000;
+}
+
+* {
+    text-align: left;
+  
+}
+.container{
+	display: grid;
+	grid-template-columns: 25% 75% ;
+	/*grid-template-columns: repeat(auto-fit, minmax(100px, 5fr));*/
+	 
+}
+
+.container div:nth-child(1) {
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+    background-color: #708090;
+ 	
+
+}
+
+.container div:nth-child(2){
+
+	background-color: lightgrey;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 75px;
+    color: #500000;
+
+}
+
+.hobbies{
+	text-align: center;
+
+}
+.hobbies2{
+	padding-left: 60PX;
+	padding-bottom: 30px;
+
+}
+
+}
