@@ -66,10 +66,10 @@ img{
 	display: block;
 	margin-top: 30px;
 	margin-left: auto;
-	margin-right: 30px;
+	margin-right: auto;
 	margin-bottom: 30px;
-	width: 250px;
-	height: 330px; 
+	max-width: 250px;
+	max-height: 330px; 
 	text-align: left;
 	border-radius: 50%;
 }
