@@ -117,11 +117,13 @@ i{
 
 .hobbies{
 	text-align: center;
-
+	padding-right: 15px;
+	
 }
 .hobbies2{
-	padding-left: 60PX;
-	padding-bottom: 30px;
+	
+	display: flex;
+	justify-content: center;
 
 }
 
