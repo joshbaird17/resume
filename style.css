@@ -141,3 +141,11 @@ i{
 		font-size: 110%;
 	}
 }
+
+@media (max-width: 458px) {
+
+	.container {
+		display: block;
+		font-size: 95%;
+	}
+}
