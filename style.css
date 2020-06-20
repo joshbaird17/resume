@@ -32,7 +32,6 @@ p {
 	text-align: left;
 }
 h2 {
-	/*text-align: center;*/
 	color: white;
 	text-decoration: underline;
 	font-family: Marker Felt;
@@ -85,14 +84,13 @@ i{
 }
 
 * {
-    	text-align: left;
+    text-align: left;
   
 }
 .container{
 	display: grid;
 	grid-template-columns: 30% 70% ;
 	
-	 
 }
 
 .container div:nth-child(1) {
@@ -100,7 +98,7 @@ i{
 	padding-left: 20px;
 	padding-right: 20px;
 	color: white;
-    	background-color: #708090;
+    background-color: #708090;
  	
 
 }
@@ -108,23 +106,38 @@ i{
 .container div:nth-child(2){
 
 	background-color: lightgrey;
-    	padding-bottom: 15px;
-    	padding-left: 100px;
-    	padding-right: 75px;
-    	color: #500000;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #500000;
 
 }
 
 .hobbies{
 	text-align: center;
 	padding-right: 20px;
-	
+
 }
 .hobbies2{
 	
-	display: flex;
+	display: flex; 
 	justify-content: center;
+	padding-top: 25px;
 
 }
 
+@media (max-width: 800px) {
+
+	.container {
+		display: flex;
+		font-size: 105%;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.container {
+		display: block;
+		font-size: 110%;
+	}
 }
