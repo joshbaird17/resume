@@ -62,18 +62,19 @@ a:visited{
 }
 
 img{
-	display: flex;
+	display: block;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 30px;
 	max-width: 250px;
 	max-height: 330px; 
+	text-align: left;
 	border-radius: 50%;
 }
 
 i{
-	display: flex;
+	display: inline-block;
   	position: relative;
   	padding-right: 5px;
 }
@@ -81,10 +82,6 @@ i{
 .nonwhite{
 	color: #500000;
 }
-
-ul{
-
-	font-family: Comic Sans MS}
 
 * {
     text-align: left;
@@ -126,19 +123,20 @@ ul{
 	display: flex; 
 	justify-content: center;
 	padding-top: 25px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 
 }
 
 @media (max-width: 800px) {
 
 	.container {
-		display: block;
+		display: flex;
 		font-size: 105%;
 	}
-		.container div:nth-child(2){
+	.container div:nth-child(2){
 		padding-left: 20px;
 		padding-right: 20px;
+
 	}
 }
 
@@ -148,25 +146,22 @@ ul{
 		display: block;
 		font-size: 110%;
 	}
-		.container div:nth-child(2){
-		padding-left: 20px;
-		padding-right: 20px;
-
-	}
-
-}
-
-@media (max-width: 458px) {
-
-	.container {
-		display: flex;
-		font-size: 95%;
-	}
-
 	.container div:nth-child(2){
 		padding-left: 20px;
 		padding-right: 20px;
 
 	}
+}
 
+@media (max-width: 458px) {
+
+	.container {
+		display: block;
+		font-size: 95%;
+	}
+	.container div:nth-child(2){
+		padding-left: 20px;
+		padding-right: 20px;
+
+	}
 }
