@@ -89,7 +89,7 @@ i{
 }
 .container{
 	display: grid;
-	grid-template-columns: 30% 70% ;
+	grid-template-columns: 33% 67% ;
 	
 }
 
@@ -107,8 +107,8 @@ i{
 
 	background-color: lightgrey;
     padding-bottom: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     color: #500000;
 
 }
