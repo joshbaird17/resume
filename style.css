@@ -147,6 +147,9 @@ i{
 	h1 {
 		text-align: center;
 	}
+	h3 {
+		text-align: center;
+	}
 }
 
 @media (max-width: 600px) {
@@ -168,6 +171,9 @@ i{
 	h1 {
 		text-align: center;
 	}
+	h3 {
+		text-align: center;
+	}
 }
 
 @media (max-width: 458px) {
@@ -187,6 +193,9 @@ i{
 		order: 2;
 	}
 	h1 {
+		text-align: center;
+	}
+	h3 {
 		text-align: center;
 	}
 }
