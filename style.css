@@ -144,6 +144,9 @@ i{
 	.container div:nth-child(1){
 		order: 2;
 	}
+	h1 {
+		text-align: center;
+	}
 }
 
 @media (max-width: 600px) {
@@ -162,6 +165,9 @@ i{
 	.container div:nth-child(1){
 		order: 2;
 	}
+	h1 {
+		text-align: center;
+	}
 }
 
 @media (max-width: 458px) {
@@ -179,5 +185,8 @@ i{
 	}
 	.container div:nth-child(1){
 		order: 2;
+	}
+	h1 {
+		text-align: center;
 	}
 }
