@@ -142,7 +142,7 @@ i{
 
 	}
 	.container div:nth-child(1){
-		order: 3;
+		order: 2;
 	}
 }
 
@@ -160,7 +160,7 @@ i{
 
 	}
 	.container div:nth-child(1){
-		order: 3;
+		order: 2;
 	}
 }
 
@@ -178,6 +178,6 @@ i{
 
 	}
 	.container div:nth-child(1){
-		order: 3;
+		order: 2;
 	}
 }
