@@ -85,12 +85,12 @@ i{
 }
 
 * {
-    text-align: left;
+    	text-align: left;
   
 }
 .container{
 	display: grid;
-	grid-template-columns: 27% 73% ;
+	grid-template-columns: 33% 67% ;
 	
 }
 
@@ -99,7 +99,7 @@ i{
 	padding-left: 20px;
 	padding-right: 20px;
 	color: white;
-    background-color: #708090;
+    	background-color: #708090;
  	
 
 }
@@ -107,10 +107,10 @@ i{
 .container div:nth-child(2){
 
 	background-color: lightgrey;
-    padding-bottom: 15px;
-    padding-left: 80px;
-    padding-right: 80px;
-    color: #500000;
+	padding-bottom: 15px;
+	padding-left: 80px;
+	padding-right: 80px;
+	color: #500000;
 
 }
 
