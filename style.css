@@ -29,7 +29,7 @@ p {
 }
 
 .date{
-	text-align: right;
+	float: right;
 }
 h2 {
 	color: white;
