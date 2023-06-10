@@ -50,8 +50,8 @@ ul {
 	font-family: Comic Sans MS;
 }
 
-content ul {
-	padding: 0px 20px 0px 40px;
+content li {
+	padding: 0px 25px 0px 0px;
 }
 
 a:active{
