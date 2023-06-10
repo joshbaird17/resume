@@ -53,13 +53,13 @@ ul {
 content li {
 	padding: 0px 25px 0px 0px;
 	list-style-type:disc;
-	Color:#500000"
+	Color:#500000;
 }
 
 left hr {
 	height:7px;
 	border-width:0;
-	background-color:white"
+	background-color:white;
 }
 
 header hr {
@@ -67,7 +67,7 @@ header hr {
 	height:15px;
 	border-width:0;
 	color:#500000;
-	background-color:#500000"
+	background-color:#500000;
 }
 
 right hr {
@@ -75,7 +75,7 @@ right hr {
 	height:7px;
 	border-width:0;
 	color:#500000;
-	background-color:#500000"
+	background-color:#500000;
 }
 
 a:active{
