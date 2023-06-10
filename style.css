@@ -22,15 +22,16 @@ body {
 
 }
 
+.date{
+	float: right;
+}
+
 p {
 	
 	font-family: Comic Sans MS
 	
 }
 
-.date{
-	float: right;
-}
 h2 {
 	color: white;
 	text-decoration: underline;
